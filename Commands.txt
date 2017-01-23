@@ -1,0 +1,10 @@
+Upload Single Cookbook------knife cookbook upload [cookbook-name]
+Upload ALL Cookbooks-----knife cookbook upload --all
+Freeze Cookbook Version (and Force Upload)-----knife cookbook upload prod-db --freeze
+Upload Cookbook with All Dependencies-----knife cookbook upload thegeekstuff -d
+Specify Cookbook Directory Location------knife cookbook upload prod-db -o /root/chef-repo/cookbooks
+Validate Cookbook Syntax----- knife cookbook test thegeekstuff
+Delete Cookbook from Chef Server-----knife upload cookbooks --purge
+Delete One (or All) Versions of a Cookbook----knife cookbook delete 2.1.0 thegeekstuff
+eletingmultiple cookbooks---knife cookbook bulk delete "^dev-*"
+
