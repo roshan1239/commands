@@ -7,6 +7,5 @@ Validate Cookbook Syntax----- knife cookbook test thegeekstuff
 Delete Cookbook from Chef Server-----knife upload cookbooks --purge
 Delete One (or All) Versions of a Cookbook----knife cookbook delete 2.1.0 thegeekstuff
 eletingmultiple cookbooks---knife cookbook bulk delete "^dev-*"
-
-test two
+st two
 tets one
