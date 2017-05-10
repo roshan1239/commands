@@ -9,3 +9,4 @@ Delete One (or All) Versions of a Cookbook----knife cookbook delete 2.1.0 thegee
 eletingmultiple cookbooks---knife cookbook bulk delete "^dev-*"
 st two
 tets one
+http://community.ooyala.com/t5/Engineering-Blogs/Keeping-Secrets-with-Chef/ba-p/9306
